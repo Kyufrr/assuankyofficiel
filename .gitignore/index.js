@@ -23,7 +23,7 @@ bot.on("ready", async () => {
 });
 
 bot.on('message', member => {
-	console.log(member.username + ':' + message.content)
+	console.log(member.username + '' + message.content)
 });
 
 const YTDL = require('ytdl-core')
